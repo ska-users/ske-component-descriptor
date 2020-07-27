@@ -1,0 +1,12 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: eu.gcr.io/gardener-project/gardener/terminal-controller-manager:v0.11.0
+          name: terminal
+          version: v0.11.0
+      generic: []
+      web: []
+    name: github.com/gardener/terminal-controller-manager
+    version: v0.11.0
