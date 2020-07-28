@@ -1,0 +1,15 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: quay.io/coreos/etcd:v3.3.13
+          name: etcd
+          version: v3.3.13
+        - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:0.6.4
+          name: etcdbrctl
+          version: 0.6.4
+      generic: []
+      web: []
+    name: garden-setup
+    version: v1.35.0
