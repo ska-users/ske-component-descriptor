@@ -1,0 +1,39 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: k8s.gcr.io/hyperkube:v1.18.2
+          name: hyperkube
+          version: 1.18.2
+        - image_reference: k8s.gcr.io/kube-apiserver:v1.18.2
+          name: kube-apiserver
+          version: 1.18.2
+        - image_reference: k8s.gcr.io/kube-controller-manager:v1.18.2
+          name: kube-controller-manager
+          version: 1.18.2
+        - image_reference: k8s.gcr.io/scheduler:v1.18.2
+          name: scheduler
+          version: 1.18.2
+        - image_reference: k8s.gcr.io/kube-proxy:v1.18.2
+          name: kube-proxy
+          version: 1.18.2
+        - image_reference: k8s.gcr.io/hyperkube:v1.18.2
+          name: hyperkube
+          version: 1.18.6
+        - image_reference: k8s.gcr.io/kube-apiserver:v1.18.6
+          name: kube-apiserver
+          version: 1.18.6
+        - image_reference: k8s.gcr.io/kube-controller-manager:v1.18.6
+          name: kube-controller-manager
+          version: 1.18.6
+        - image_reference: k8s.gcr.io/scheduler:v1.18.6
+          name: scheduler
+          version: 1.18.6
+        - image_reference: k8s.gcr.io/kube-proxy:v1.18.6
+          name: kube-proxy
+          version: 1.18.6
+      generic: []
+      web: []
+    name: k9s_1.18.0
+    version: 1.18.0
