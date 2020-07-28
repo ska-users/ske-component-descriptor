@@ -1,0 +1,15 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: eu.gcr.io/gardener-project/certificate-dns-bridge:1.0.1
+          name: certificate-dns-bridge
+          version: 1.0.1
+        - image_reference: eu.gcr.io/gardener-project/certificate-dns-bridge:2.0.0
+          name: certificate-dns-bridge
+          version: 2.0.0
+      generic: []
+      web: []
+    name: certificate-dns-bridge
+    version: 2.0.0
