@@ -1,0 +1,21 @@
+component_overwrites: []
+components:
+- dependencies:
+    container_images:
+    - image_reference: quay.io/coreos/etcd:v3.3.13
+      name: etcd
+      version: v3.3.13
+    generic: []
+    web: []
+  name: github.com/gardener/etcd-druid
+  version: v0.3.0
+- dependencies:
+    components: []
+    container_images:
+    - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:0.6.4
+      name: etcdbrctl
+      version: 0.6.4
+    generic: []
+    web: []
+  name: github.com/gardener/etcd-backup-restore
+  version: v0.9.1
