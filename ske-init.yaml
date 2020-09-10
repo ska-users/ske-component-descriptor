@@ -1,0 +1,33 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: quay.io/k8scsi/csi-attacher:v2.0.0
+          name: csi-attacher
+          version: v2.0.0
+        - image_reference: quay.io/k8scsi/csi-provisioner:v1.4.0
+          name: csi-provisioner
+          version: v1.4.0
+        - image_reference: quay.io/k8scsi/csi-snapshotter:v1.2.2
+          name: csi-snapshotter
+          version: v1.2.2
+        - image_reference: quay.io/k8scsi/csi-resizer:v0.3.0
+          name: csi-resizer
+          version: v0.3.0
+        - image_reference: quay.io/k8scsi/csi-node-driver-registrar:v1.1.0
+          name: csi-node-driver-registrar
+          version: v1.1.0
+        - image_reference: docker.io/k8scloudprovider/cinder-csi-plugin:v1.18.0
+          name: cinder-csi-plugin
+          version: v1.18.0
+        - image_reference: docker.io/k8scloudprovider/openstack-cloud-controller-manager:v1.18.0
+          name: openstack-cloud-controller-manager
+          version: v1.18.0
+        - image_reference: k8s.gcr.io/metrics-server-amd64:v0.3.6
+          name: metrics-server-amd64
+          version: :v0.3.6
+      generic: []
+      web: []
+    name: skeinit
+    version: v2.0.0
