@@ -1,0 +1,18 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: quay.io/jetstack/cert-manager-controller:v0.13.1
+          name: cert-manager-controller
+          version: v0.13.1
+        - image_reference: quay.io/jetstack/cert-manager-webhook:v0.13.1
+          name: cert-manager-webhook
+          version: v0.13.1
+        - image_reference: quay.io/jetstack/cert-manager-cainjector:v0.13.1
+          name: cert-manager-cainjector
+          version: v0.13.1
+      generic: []
+      web: []
+    name: cert-manager
+    version: v0.13.1
