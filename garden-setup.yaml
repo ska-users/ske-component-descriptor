@@ -9,7 +9,7 @@ components:
         - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:0.6.4
           name: etcdbrctl
           version: 0.6.4
-        - image_reference: quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.22.0
+        - image_reference: quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.34.1
           name: nginx-ingress-controller
           version: 0.34.1
       generic: []
