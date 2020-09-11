@@ -57,6 +57,9 @@ components:
         - image_reference: k8s.gcr.io/pause:3.2
           name: pause
           version: 3.2          
+        - image_reference: k8s.gcr.io/coredns:1.6.7
+          name: coredns
+          version: 1.6.7
       generic: []
       web: []
     name: k9s_1.18.0
