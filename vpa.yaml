@@ -1,0 +1,18 @@
+component_overwrites: []
+components:
+  - dependencies:
+      components: []
+      container_images:
+        - image_reference: eu.gcr.io/k8s-artifacts-prod/autoscaling/vpa-admission-controller:0.6.3
+          name: vpa-admission-controller
+          version: 0.6.3
+        - image_reference: eu.gcr.io/k8s-artifacts-prod/autoscaling/vpa-recommender:0.6.3
+          name: vpa-recommender
+          version: 0.6.3
+        - image_reference: eu.gcr.io/k8s-artifacts-prod/autoscaling/vpa-updater:0.6.3
+          name: vpa-updater
+          version: 0.6.3
+      generic: []
+      web: []
+    name: ske-vpa
+    version: v2.0.0
