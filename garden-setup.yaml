@@ -12,6 +12,9 @@ components:
         - image_reference: us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:v0.34.1
           name: nginx-ingress-controller
           version: v0.34.1
+        - image_reference: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+          name: kube-rbac-proxy
+          version: v0.5.0
       generic: []
       web: []
     name: garden-setup
