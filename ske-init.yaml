@@ -30,9 +30,9 @@ components:
         - image_reference: quay.io/coreos/etcd:v3.3.13
           name: etcd
           version: v3.3.13
-        - image_reference: quay.io/coreos/etcd:v3.4.3
+        - image_reference: k8s.gcr.io/etcd:3.4.3-0
           name: etcd
-          version: v3.4.3
+          version: v3.4.3-0
       generic: []
       web: []
     name: skeinit
