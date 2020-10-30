@@ -33,6 +33,21 @@ components:
         - image_reference: k8s.gcr.io/kube-proxy:v1.19.2
           name: kube-proxy
           version: 1.19.2
+        - image_reference: eu.gcr.io/gardener-project/hyperkube:v1.19.3
+          name: hyperkube
+          version: 1.19.3
+        - image_reference: k8s.gcr.io/kube-apiserver:v1.19.3
+          name: kube-apiserver
+          version: 1.19.3
+        - image_reference: k8s.gcr.io/kube-controller-manager:v1.19.3
+          name: kube-controller-manager
+          version: 1.19.3
+        - image_reference: k8s.gcr.io/kube-scheduler:v1.19.3
+          name: scheduler
+          version: 1.19.3
+        - image_reference: k8s.gcr.io/kube-proxy:v1.19.3
+          name: kube-proxy
+          version: 1.19.3
       generic: []
       web: []
     name: k9s_1.19.0
