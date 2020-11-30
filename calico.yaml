@@ -17,6 +17,18 @@ components:
           version: v3.15.0
         - image_reference: calico/cni:v3.17.0
           name: cni
+          version: v3.16.4
+        - image_reference: calico/pod2daemon-flexvol:v3.16.4
+          name: pod2daemon-flexvol
+          version: v3.16.4
+        - image_reference: calico/node:v3.16.4
+          name: node
+          version: v3.16.4
+        - image_reference: calico/kube-controllers:v3.16.4
+          name: kube-controllers
+          version: v3.16.4
+        - image_reference: calico/cni:v3.17.0
+          name: cni
           version: v3.17.0
         - image_reference: calico/pod2daemon-flexvol:v3.17.0
           name: pod2daemon-flexvol
