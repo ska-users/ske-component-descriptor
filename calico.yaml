@@ -15,7 +15,7 @@ components:
         - image_reference: calico/kube-controllers:v3.15.0
           name: kube-controllers
           version: v3.15.0
-        - image_reference: calico/cni:v3.17.0
+        - image_reference: calico/cni:v3.16.4
           name: cni
           version: v3.16.4
         - image_reference: calico/pod2daemon-flexvol:v3.16.4
@@ -39,6 +39,21 @@ components:
         - image_reference: calico/kube-controllers:v3.17.0
           name: kube-controllers
           version: v3.17.0
+        - image_reference: quay.io/calico/cni:v3.16.6
+          name: cni
+          version: v3.16.6
+        - image_reference: quay.io/calico/pod2daemon-flexvol:v3.16.6
+          name: pod2daemon-flexvol
+          version: v3.16.6
+        - image_reference: quay.io/calico/node:v3.16.6
+          name: node
+          version: v3.16.6
+        - image_reference: quay.io/calico/kube-controllers:v3.16.6
+          name: kube-controllers
+          version: v3.16.6
+        - image_reference: quay.io/calico/typha:v3.16.6
+          name: typha
+          version: v3.16.6
       generic: []
       web: []
     name: calico
