@@ -12,6 +12,18 @@ components:
         - image_reference: eu.gcr.io/k8s-artifacts-prod/autoscaling/vpa-updater:0.6.3
           name: vpa-updater
           version: 0.6.3
+        - image_reference: k8s.gcr.io/autoscaling/vpa-admission-controller:0.9.0
+          name: vpa-admission-controller
+          version: 0.9.0
+        - image_reference: k8s.gcr.io/autoscaling/vpa-recommender:0.9.0
+          name: vpa-recommender
+          version: 0.9.0
+        - image_reference: k8s.gcr.io/autoscaling/vpa-updater:0.9.0
+          name: vpa-updater
+          version: 0.9.0
+        - image_reference: eu.gcr.io/gardener-project/gardener/vpa-exporter:0.1.5
+          name: vpa-exporter
+          version: 0.1.5
       generic: []
       web: []
     name: ske-vpa
