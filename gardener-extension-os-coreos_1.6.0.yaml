@@ -1,0 +1,13 @@
+component_overwrites: []
+components:
+- dependencies:
+    components: []
+    container_images:
+    - image_reference: eu.gcr.io/gardener-project/gardener/extensions/os-coreos:v1.6.0
+      name: gardener-extension-os-coreos
+      version: v1.6.0
+    generic: []
+    web: []
+  name: github.com/gardener/gardener-extension-os-coreos
+  version: v1.6.0
+
