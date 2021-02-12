@@ -9,6 +9,12 @@ components:
         - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:0.6.4
           name: etcdbrctl
           version: 0.6.4
+        - image_reference: quay.io/coreos/etcd:v3.4.13
+          name: etcd
+          version: v3.4.13
+        - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:v0.11.1
+          name: etcdbrctl
+          version: v0.11.1
         - image_reference: us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:v0.34.1
           name: nginx-ingress-controller
           version: v0.34.1
