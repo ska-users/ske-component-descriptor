@@ -9,9 +9,15 @@ components:
         - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:0.6.4
           name: etcdbrctl
           version: 0.6.4
+        - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:0.6.4
+          name: etcdbrctl
+          version: 0.12.0          
         - image_reference: eu.gcr.io/gardener-project/gardener/etcd:v3.4.13
           name: etcd
           version: v3.4.13
+        - image_reference: eu.gcr.io/gardener-project/gardener/etcd:v3.4.13-bootstrap
+          name: etcd
+          version: v3.4.13-bootstrap
         - image_reference: eu.gcr.io/gardener-project/gardener/etcdbrctl:v0.11.1
           name: etcdbrctl
           version: v0.11.1
