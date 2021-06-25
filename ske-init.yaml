@@ -26,7 +26,7 @@ components:
           version: v1.18.0
         - image_reference: k8s.gcr.io/metrics-server-amd64:v0.3.6
           name: metrics-server-amd64
-          version: :v0.3.6
+          version: v0.3.6
         - image_reference: quay.io/coreos/etcd:v3.3.13
           name: etcd
           version: v3.3.13
