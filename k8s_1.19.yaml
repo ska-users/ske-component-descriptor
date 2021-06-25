@@ -63,6 +63,9 @@ components:
         - image_reference: k8s.gcr.io/kube-proxy:v1.19.7
           name: kube-proxy
           version: 1.19.7
+        - image_reference: k8s.gcr.io/coredns:1.7.0
+          name: coredns
+          version: 1.7.0
       generic: []
       web: []
     name: k9s_1.19.0
